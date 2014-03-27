@@ -60,7 +60,7 @@ function init_WC_Mediterraneancoin_Payment_Gateway() {
         'callback' => array(
           'title' => __('Your callback URL', 'woothemes'),
           'type' => 'text',
-          'disabled' => false,
+          'disabled' => true,
           'description' => __('Your callback URL'),
           'default' => get_option('siteurl') . '/?page_id=' . get_option('woocommerce_checkout_page_id')
         ),
